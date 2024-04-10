@@ -12,10 +12,11 @@
 
         @foreach($movies as $movie)
         <div class="col p-2">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">{{$movie->title}}</h5>
-                    <p class="card-text">({{$movie->original_title}})</p>
+
+            <div class="movie">
+                <div class="movie-body">
+                    <h5 class="movie-title">{{$movie->title}}</h5>
+                    <p class="movie-text">({{$movie->original_title}})</p>
                 </div>
             </div>
                       
